@@ -1,0 +1,31 @@
+
+//  Defaults sass file. Here the libraries will be all 
+//  loaded and used, instead of defining things. For definitions
+//  you rather use _base.sass. Typographic elements are defined
+//  in _type.sass.
+
+@import _base.sass
+
+// Body --------------------------------------------------------------
+
+body
+  :color $base 
+  :font-size $base-font-size
+  :line-height $base-line-height
+
+
+// Links --------------------------------------------------------------
+
+a
+  &:link, &:visited
+    color: $alt
+    text-decoration: none
+
+  &:focus, &:hover, &:active
+    color: darken($alt,5)
+    text-decoration: underline
+
+  img
+    border: none
+
+

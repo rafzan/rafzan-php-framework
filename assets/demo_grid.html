@@ -1,0 +1,49 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<title>The 1Kb Grid Demo: Nested Rows</title> 
+    <link href="stylesheets/screen.css" type="text/css" rel="stylesheet" media="screen"/>
+    <script src="js/libs/modernizr-1.6.min.js"></script>
+ 
+	<style type="text/css" media="screen"> 
+ 
+		body { margin: 20px 0 0 0; }
+		p {
+      font:60px/100px Helvetica;
+			color: #000;
+			text-align: center;
+			border: 1px solid #000;
+			margin: 0 0 27px 0;
+      height: 106px
+		}
+	
+	</style> 
+ 
+</head> 
+<body id="home"> 
+
+  <div class="top"> 
+    <div class="row"> 
+      <div class="column grid_12"><p>12</p></div> 
+    </div> 
+     
+    <div class="row"> 
+      <div class="column grid_6"><p>6</p> 
+	      <div class="row"> 
+		      <div class="column grid_3"><p>3</p></div> 
+		      <div class="column grid_3"><p>3</p></div> 
+	      </div> 
+      </div> 
+      <div class="column grid_6"><p style="height: 241px;">6</p></div> 
+    </div>
+  </div>
+
+ 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+  <script src="js/script.js"></script>
+
+</body> 
+</html>

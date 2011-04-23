@@ -1,0 +1,84 @@
+
+// Typographic definitions. Be really carefull to mess on this file.
+// It have the powers to destroy the grid behavior and mess with the 
+// pre-configured and cross-browser-tested alignment of html elements .
+
+/********** headings
+
+h1, h2, h3, h4, h5, h6 
+  font-weight: normal
+  img 
+    margin: 0
+
+h1
+  :font-size 1.444em
+  :line-height 1.06em
+  :margin 0 0 1.05em 0
+
+h2
+  :font-size 1.333em
+  :line-height 1.125em
+  :margin 0 0 1.13em 0
+
+h3
+  :font-size 1.222em
+  :line-height 1.227em
+  :margin -0.09em 0 1.32em 0
+
+h4
+  :font-size 1.111em
+  :line-height 1.35em
+  :margin 0 0 1.35em 0
+
+h5, h6
+  :font-size 18px
+  :line-height $base-line-height
+  :margin-bottom $base-line-height
+
+h5
+  :text-transform uppercase
+
+h6
+  :font-style italic
+
+/*********** misc
+
+.sans
+  @include sans
+
+.serif
+  @include serif
+
+.monospace
+  @include monospace
+
+cite
+  display: block
+  text-align: right
+
+code, pre
+  display: block
+  @include monospace
+  font-size: 90%
+  margin: 0 0 27px 0
+
+/*********** text-elements
+
+hr
+  :margin -0.3em 0 1.7em 0
+
+p
+  :margin-bottom $base-line-height
+
+/*********** lists
+
+ul, ol
+  :padding 0 0 0 30px
+  :margin 0 0 1.5em 0
+
+ul
+  :list-style disc
+ol
+  :list-style decimal
+
+/*********** tables

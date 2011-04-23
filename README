@@ -1,0 +1,16 @@
+Rafzan enhanced CodeIgniter
+---------------------------
+
+CodeIgniter + sass-parser + sass-framework + curl + restserver + restclient + datamapper
+
+CI's copy we use a the office.
+
+Requires:
+
+1. PHP 5.1+
+2. CodeIgniter 2.0.2
+3. cURL (remember to enable in php.ini)
+4. libcurl
+
+
+Have fun!
