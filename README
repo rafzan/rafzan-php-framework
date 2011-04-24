@@ -1,7 +1,7 @@
 Rafzan enhanced CodeIgniter
 ---------------------------
 
-CodeIgniter + sass-parser + sass-framework + curl + restserver + restclient + datamapper
+CodeIgniter + sass-parser + sass-framework + curl + restserver + restclient + datamapper + Ion Auth
 
 CI's copy we use a the office.
 
@@ -11,6 +11,7 @@ Requires:
 2. CodeIgniter 2.0.2
 3. cURL (remember to enable in php.ini)
 4. libcurl
+5. Database (for auth. Is recommended that you use encrypted database sessions, also that you add your identity column as an index.)
 
 
 Have fun!
