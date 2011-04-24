@@ -84,8 +84,10 @@ class MY_Loader extends CI_Loader {
 		// to become accessible from within the Controller and Model functions.
 		// Only needed when running PHP 5
 		
-		if ($this->_ci_is_instance())
-		{
+    // Deprecated by rafzan... CI 2.0 deprecated any PHP4 adapts.
+    //
+		//if ($this->_ci_is_instance())
+		//{
 			$_ci_CI =& get_instance();
 			foreach (get_object_vars($_ci_CI) as $_ci_key => $_ci_var)
 			{
@@ -94,7 +96,7 @@ class MY_Loader extends CI_Loader {
 					$this->$_ci_key =& $_ci_CI->$_ci_key;
 				}
 			}
-		}
+		//}
 
 		/*
 		 * Extract and cache variables
